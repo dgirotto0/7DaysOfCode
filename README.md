@@ -1,6 +1,6 @@
 # #7DaysOfCode - Alura
 
-##This exercise was provided by Alura, conducted by instructor Rafa Ballerini.
+This exercise was provided by Alura, conducted by instructor Rafa Ballerini.
 
 ### Day 1
 On the first day, an exercise was proposed where the user has to compare two variables regardless of their type and print the correct message:
