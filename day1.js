@@ -5,8 +5,8 @@ let stringTrinta = '30'
 let numeroDez = 10
 let stringDez = '10'
 
-/*If you type '===' you will be comparing the value of the variable and the type. 
-In this case it is necessary to use '==' which compares only the value.
+/*If you use '===' you will be comparing both the value and the type of the variables.
+In this case, it is necessary to use '==' which compares only the value.
 
 '==' : equal to
 '===' : identical to*/
