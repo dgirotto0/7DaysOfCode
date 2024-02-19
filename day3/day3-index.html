@@ -10,11 +10,13 @@
     <div id="app">
         <h1>Qual é o seu caminho de aprendizado em programação?</h1>
         <div id="question"></div>
-        <button id="option1"></button>
-        <button id="option2"></button>
-        <button id="endGameBtn" class="hidden">Finalizar Jogo</button>
+        
+        <button id="option1" class="shadow__btn"></button>
+        <button id="option2" class="shadow__btn"></button>
+        <button id="endGameBtn" class="shadow__btn">Finalizar Jogo</button>
         <div id="tech-input-container" class="hidden">
-            <input type="text" id="tech-input" placeholder="Digite uma tecnologia...">
+            <input type="text" id="tech-input" placeholder="Digite uma tecnologia..." required="">
+            <span class="input-border input-border-alt"></span>
             <button id="add-tech">Adicionar</button>
         </div>
         <ul id="tech-list"></ul>
