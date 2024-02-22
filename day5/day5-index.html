@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="day5-styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Lista de Compras</h1>
+    <input type="text" class="input" id="comida" placeholder="Digite o nome da comida...">
+
+    <div id="tipos-comida">
+        <div style="margin-right: 20px;">
+          <label for="fruta-checkbox">
+            <input type="checkbox" id="fruta-checkbox" value="Fruta"> Fruta
+          </label>
+        </div>
+        <div style="margin-right: 20px;">
+          <label for="laticinio-checkbox">
+            <input type="checkbox" id="laticinio-checkbox" value="Laticínio"> Laticínio
+          </label>
+        </div>
+        <div style="margin-right: 20px;">
+          <label for="congelados-checkbox">
+            <input type="checkbox" id="congelados-checkbox" value="Congelados"> Congelados
+          </label>
+        </div>
+        <div>
+          <label for="doces-checkbox">
+            <input type="checkbox" id="doces-checkbox" value="Doces"> Doces
+          </label>
+        </div>
+    </div>
+
+    <button id="confirmarComida">Adicionar à Lista</button>
+
+    <div id="coluna-frutas" class="coluna"></div>
+    <div id="coluna-laticinios" class="coluna"></div>
+    <div id="coluna-congelados" class="coluna"></div>
+    <div id="coluna-doces" class="coluna"></div>
+  </div>
+  <script src="day5.js"></script>
+</body>
+</html>
